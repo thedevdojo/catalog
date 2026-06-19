@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f3efe7"/>
+<stop offset="1" stop-color="#e7e0d2"/>
+</linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#c9aa80"/>
+<stop offset="1" stop-color="#a9875c"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vignette" cx="0.5" cy="0.46" r="0.85">
+<stop offset="0.62" stop-color="#2b251d" stop-opacity="0"/>
+<stop offset="1" stop-color="#2b251d" stop-opacity="0.11"/>
+</radialGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="18"/></filter>
+<filter id="softer" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="34"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<rect width="800" height="1000" fill="url(#glow)"/>
+<rect x="0" y="768" width="800" height="1000" fill="url(#table)"/>
+<rect x="0" y="768" width="800" height="3" fill="#ffffff" opacity="0.28"/>
+
+<ellipse cx="400" cy="780" rx="340" ry="28.9" fill="#2b231a" opacity="0.32" filter="url(#soft)"/><ellipse cx="400" cy="780" rx="210.8" ry="17" fill="#241d15" opacity="0.256" filter="url(#softer)"/><rect x="120" y="682" width="560" height="98" rx="10" fill="#857d6f"/><rect x="120" y="682" width="560" height="98" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="654" y="689" width="19" height="84" rx="3" fill="#f6f1e3"/><path d="M659 694 v74 M664 694 v74 M669 694 v74" stroke="#d8cfb8" stroke-width="1.5"/><rect x="120" y="775" width="560" height="5" fill="#000000" opacity="0.1"/><rect x="154" y="594" width="524" height="88" rx="10" fill="#332f2a"/><rect x="154" y="594" width="524" height="88" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="652" y="601" width="19" height="74" rx="3" fill="#f6f1e3"/><path d="M657 606 v64 M662 606 v64 M667 606 v64" stroke="#d8cfb8" stroke-width="1.5"/><rect x="154" y="677" width="524" height="5" fill="#000000" opacity="0.1"/><rect x="118" y="500" width="544" height="94" rx="10" fill="#f2ecdd"/><rect x="118" y="500" width="544" height="94" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="636" y="507" width="19" height="80" rx="3" fill="#f6f1e3"/><path d="M641 512 v70 M646 512 v70 M651 512 v70" stroke="#d8cfb8" stroke-width="1.5"/><rect x="118" y="589" width="544" height="5" fill="#000000" opacity="0.1"/><text x="378" y="554" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="3" fill="#33302b">SALT &amp; CEDAR</text><text x="404" y="644" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="3.5" fill="#e9e2d2">THEO BRANDT</text><text x="388" y="737" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="3" fill="#33302b">CATALOG PRESS · FIRST EDITION</text>
+<rect width="800" height="1000" fill="url(#vignette)"/>
+</svg>

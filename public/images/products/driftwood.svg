@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f3eee4"/>
+<stop offset="1" stop-color="#e6dcc8"/>
+</linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#cfb38c"/>
+<stop offset="1" stop-color="#af8f64"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vignette" cx="0.5" cy="0.46" r="0.85">
+<stop offset="0.62" stop-color="#2b251d" stop-opacity="0"/>
+<stop offset="1" stop-color="#2b251d" stop-opacity="0.11"/>
+</radialGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="18"/></filter>
+<filter id="softer" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="34"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<rect width="800" height="1000" fill="url(#glow)"/>
+<rect x="0" y="768" width="800" height="1000" fill="url(#table)"/>
+<rect x="0" y="768" width="800" height="3" fill="#ffffff" opacity="0.28"/>
+
+<ellipse cx="710" cy="780" rx="170.8" ry="14.518" fill="#2b231a" opacity="0.26" filter="url(#soft)"/><ellipse cx="710" cy="780" rx="105.896" ry="8.54" fill="#241d15" opacity="0.208" filter="url(#softer)"/><circle cx="710" cy="540" r="244" fill="#1c1916"/><circle cx="710" cy="540" r="244" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/><circle cx="710" cy="540" r="214" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="9"/><circle cx="710" cy="540" r="188" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="9"/><circle cx="710" cy="540" r="162" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="9"/><circle cx="710" cy="540" r="136" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="9"/><circle cx="710" cy="540" r="110" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="9"/><circle cx="710" cy="540" r="80" fill="#b07a52"/><circle cx="710" cy="540" r="80" fill="url(#glow)" opacity="0.3"/><circle cx="710" cy="540" r="6" fill="#f3eee4"/><ellipse cx="390" cy="782" rx="291.2" ry="24.752" fill="#2b231a" opacity="0.32" filter="url(#soft)"/><ellipse cx="390" cy="782" rx="180.544" ry="14.56" fill="#241d15" opacity="0.256" filter="url(#softer)"/><path d="M280 780 l34 -44 l12 8 l-26 36 Z" fill="#9a7b52"/><path d="M500 780 l-34 -44 l-12 8 l26 36 Z" fill="#8d6f49"/><g><rect x="130" y="258" width="520" height="520" fill="#272320"/><rect x="170" y="610" width="120" height="2" fill="#d3ac8c"/><rect x="130" y="258" width="520" height="520" fill="url(#glow)" opacity="0.25"/><rect x="130" y="258" width="520" height="520" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="634" y="258" width="16" height="520" fill="#000000" opacity="0.08"/><text x="170" y="354" text-anchor="start" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="400" letter-spacing="0.5" fill="#e9e2d2">Driftwood</text><text x="170" y="648" text-anchor="start" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="4" fill="#d3ac8c">THE CARDINAL SOUTH</text></g>
+<rect width="800" height="1000" fill="url(#vignette)"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f1ede4"/>
+<stop offset="1" stop-color="#e5ddcc"/>
+</linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#e3ddcd"/>
+<stop offset="1" stop-color="#cdc5b0"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vignette" cx="0.5" cy="0.46" r="0.85">
+<stop offset="0.62" stop-color="#2b251d" stop-opacity="0"/>
+<stop offset="1" stop-color="#2b251d" stop-opacity="0.11"/>
+</radialGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="18"/></filter>
+<filter id="softer" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="34"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<rect width="800" height="1000" fill="url(#glow)"/>
+<rect x="0" y="768" width="800" height="1000" fill="url(#table)"/>
+<rect x="0" y="768" width="800" height="3" fill="#ffffff" opacity="0.28"/>
+
+<ellipse cx="400" cy="784" rx="266.6" ry="22.661" fill="#2b231a" opacity="0.32" filter="url(#soft)"/><ellipse cx="400" cy="784" rx="165.292" ry="13.33" fill="#241d15" opacity="0.256" filter="url(#softer)"/><rect x="609" y="174" width="14" height="606" rx="2" fill="#f6f1e3"/><rect x="617" y="180" width="4" height="594" fill="#ddd5c0"/><rect x="185" y="164" width="430" height="620" rx="5" fill="#9aa794"/><rect x="185" y="164" width="430" height="620" rx="5" fill="url(#glow)" opacity="0.35"/><rect x="207" y="164" width="3" height="620" fill="#000000" opacity="0.12"/><rect x="211" y="164" width="2" height="620" fill="#ffffff" opacity="0.18"/><circle cx="410" cy="272" r="3.5" fill="#536052"/><line x1="370" y1="272" x2="392" y2="272" stroke="#536052" stroke-width="1.5"/><line x1="428" y1="272" x2="450" y2="272" stroke="#536052" stroke-width="1.5"/><text x="410" y="342" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="400" letter-spacing="4" fill="#26302a">THE LONG WAY</text><text x="410" y="398" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="400" letter-spacing="4" fill="#26302a">ROUND</text><line x1="376" y1="436" x2="444" y2="436" stroke="#536052" stroke-width="1.5"/><text x="410" y="688" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="3.5" fill="#26302a">CALEB MUNRO</text><text x="410" y="732" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="3" fill="#536052">CATALOG PRESS</text>
+<rect width="800" height="1000" fill="url(#vignette)"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f0ece4"/>
+<stop offset="1" stop-color="#e2dbcd"/>
+</linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#e6e0d2"/>
+<stop offset="1" stop-color="#d0c9b6"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="vignette" cx="0.5" cy="0.46" r="0.85">
+<stop offset="0.62" stop-color="#2b251d" stop-opacity="0"/>
+<stop offset="1" stop-color="#2b251d" stop-opacity="0.11"/>
+</radialGradient>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="18"/></filter>
+<filter id="softer" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur in="SourceGraphic" stdDeviation="34"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<rect width="800" height="1000" fill="url(#glow)"/>
+<rect x="0" y="768" width="800" height="1000" fill="url(#table)"/>
+<rect x="0" y="768" width="800" height="3" fill="#ffffff" opacity="0.28"/>
+<g opacity="0.9"><ellipse cx="672" cy="786" rx="52" ry="4.42" fill="#2b231a" opacity="0.18" filter="url(#soft)"/><ellipse cx="672" cy="786" rx="32.24" ry="2.6" fill="#241d15" opacity="0.144" filter="url(#softer)"/><path d="M642 686 q-10 50 8 82 q8 14 22 14 q14 0 22 -14 q18 -32 8 -82 q-6 -22 -30 -22 q-24 0 -30 22 Z" fill="#cfc5b2"/><path d="M672 670 q-6 -70 26 -118" fill="none" stroke="#7e8068" stroke-width="3.5" stroke-linecap="round"/><path d="M672 670 q2 -58 -18 -98" fill="none" stroke="#7e8068" stroke-width="3" stroke-linecap="round"/><ellipse cx="698" cy="552" rx="7" ry="16" fill="#7e8068" transform="rotate(24 698 552)"/><ellipse cx="686" cy="594" rx="6" ry="14" fill="#7e8068" transform="rotate(-18 686 594)" opacity="0.85"/><ellipse cx="654" cy="576" rx="6" ry="14" fill="#7e8068" transform="rotate(-30 654 576)" opacity="0.9"/></g>
+<ellipse cx="400" cy="780" rx="340" ry="28.9" fill="#2b231a" opacity="0.32" filter="url(#soft)"/><ellipse cx="400" cy="780" rx="210.8" ry="17" fill="#241d15" opacity="0.256" filter="url(#softer)"/><rect x="120" y="682" width="560" height="98" rx="10" fill="#b3ae93"/><rect x="120" y="682" width="560" height="98" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="654" y="689" width="19" height="84" rx="3" fill="#f6f1e3"/><path d="M659 694 v74 M664 694 v74 M669 694 v74" stroke="#d8cfb8" stroke-width="1.5"/><rect x="120" y="775" width="560" height="5" fill="#000000" opacity="0.1"/><rect x="154" y="594" width="524" height="88" rx="10" fill="#332f2a"/><rect x="154" y="594" width="524" height="88" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="652" y="601" width="19" height="74" rx="3" fill="#f6f1e3"/><path d="M657 606 v64 M662 606 v64 M667 606 v64" stroke="#d8cfb8" stroke-width="1.5"/><rect x="154" y="677" width="524" height="5" fill="#000000" opacity="0.1"/><rect x="118" y="500" width="544" height="94" rx="10" fill="#f2ecdd"/><rect x="118" y="500" width="544" height="94" rx="10" fill="none" stroke="#000000" stroke-opacity="0.14" stroke-width="1.5"/><rect x="636" y="507" width="19" height="80" rx="3" fill="#f6f1e3"/><path d="M641 512 v70 M646 512 v70 M651 512 v70" stroke="#d8cfb8" stroke-width="1.5"/><rect x="118" y="589" width="544" height="5" fill="#000000" opacity="0.1"/><text x="378" y="554" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" letter-spacing="3" fill="#33302b">THE QUIET MACHINES</text><text x="404" y="644" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" letter-spacing="3.5" fill="#e9e2d2">ADA LINDQVIST</text><text x="388" y="737" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="3" fill="#33302b">CATALOG PRESS · FIRST EDITION</text>
+<rect width="800" height="1000" fill="url(#vignette)"/>
+</svg>
